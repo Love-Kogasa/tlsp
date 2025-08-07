@@ -12,9 +12,9 @@ var TemplateString = require("tlsp")
 
 // Quick Start  
 var result = TemplateString.templateString(  
- "Member Data ----- \  
-  \nName: ${ name.split(' ').join('-') } \  
-  \nAge: ${ getAge() } \  
+ "Member Data ----- \
+  \nName: ${ name.split(' ').join('-') } \
+  \nAge: ${ getAge() } \
   \nSex: ${ boy ? 'boy' : 'girl' }", {  
     name: "Any Body",  
     boy: true,  
